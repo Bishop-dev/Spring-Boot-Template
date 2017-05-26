@@ -24,10 +24,20 @@
             <optional>true</optional>
         </dependency>
 
+        <!-- FOR _WAR_ BUILD START -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+        <!-- FOR _WAR_ BUILD END -->
+
+        <!-- FOR IDEA START -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- FOR IDEA END -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
